@@ -28,6 +28,8 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+
+  <div class = "w-4 h-4 bg-black"></div>
 </template>
 
 <script>
