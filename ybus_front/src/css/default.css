@@ -1,0 +1,74 @@
+html,body{
+    width:100%;
+    height:100%;
+    max-width:600px;
+    min-width:375px;
+    background-color:#fafafc;
+    margin:auto;
+}
+
+@font-face {
+    font-family: 'Pretendard-Black'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-Black.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard-Bold'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-Bold.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard-ExtraBold'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-ExtraBold.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard-ExtraLight'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-ExtraLight.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard-Light'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-Light.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard-Medium'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-Medium.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard-Regular'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-Regular.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard-SemiBold'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-SemiBold.subset.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Pretendard-Thin'; 
+    src: url('@/assets/ybus_style_resource/yubs_font/Pretendard-Thin.subset.woff2') format('woff2');
+}
+
+.Pretendard-Black{
+    font-family: 'Pretendard-Black'; 
+}
+.Pretendard-Bold{
+    font-family: 'Pretendard-Bold'; 
+}
+.Pretendard-ExtraBold{
+    font-family: 'Pretendard-ExtraBold'; 
+}
+.Pretendard-ExtraLight{
+    font-family: 'Pretendard-ExtraLight'; 
+}
+.Pretendard-Light{
+    font-family: 'Pretendard-Light'; 
+}
+.Pretendard-Medium{
+    font-family: 'Pretendard-Medium'; 
+}
+.Pretendard-Regular{
+    font-family: 'Pretendard-Regular'; 
+}
+.Pretendard-Thin{
+    font-family: 'Pretendard-Thin'; 
+}
+.Pretendard-SemiBold{
+    font-family:"Pretendard-SemiBold";
+}
