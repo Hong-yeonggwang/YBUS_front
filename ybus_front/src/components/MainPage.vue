@@ -106,7 +106,7 @@
     methods: {
     getData() {
       this.axios
-        .get("http://localhost:8081/api/v1/get-api/hello")
+        .get("./api/v1/get-api/hello")
         .then((res) => {
           console.log(res);
         })

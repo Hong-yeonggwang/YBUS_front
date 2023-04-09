@@ -17,4 +17,7 @@ module.exports = {
       filename: 'busInfo.html'
     }
   },
+    devServer: {
+    proxy: 'http://localhost:8081'
+  }
 };
