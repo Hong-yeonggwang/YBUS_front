@@ -12,7 +12,13 @@
         </div>
         <div class="clear-both"></div>        
     </div>
-    <div id="scheduleNotice">마지막 업데이트: 2023-02-28</div>
+    <div id="scheduleNotice">
+        <div class="w-max mx-auto">
+            <div id="noticeIcon" class="float-left"></div>
+            <div class="float-left">마지막 업데이트: 2023-02-28</div>
+            <div class="clear-both"></div>
+        </div>
+    </div>
 
         
 </template>
@@ -80,5 +86,10 @@ props: {
     color: white;
     font-size: 0.75em;
     text-align: center;
+}
+#noticeIcon{
+    content: url(@/assets/ybus_style_resource/ybus_img/schedule/noticeIcon.png);
+    height:1.125rem;
+    margin-right:0.2rem;
 }
 </style>
