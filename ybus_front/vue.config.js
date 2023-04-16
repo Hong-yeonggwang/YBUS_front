@@ -15,6 +15,11 @@ module.exports = {
       entry: 'src/busInfoPage/main.js',
       template: 'public/busInfo.html',
       filename: 'busInfo.html'
+    },
+    admin: {
+      entry: 'src/adminPage/main.js',
+      template: 'public/admin.html',
+      filename: 'admin.html'
     }
   },
     devServer: {

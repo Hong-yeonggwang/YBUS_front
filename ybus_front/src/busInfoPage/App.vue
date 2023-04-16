@@ -1,19 +1,18 @@
 <template>
   <BusInfoHeader></BusInfoHeader>
-  <BusSchedule></BusSchedule>
+  <BusStopLine></BusStopLine>
+  <router-view></router-view>
 </template>
 
 <script>
 import BusInfoHeader from '../components/BusInfoHeader.vue'
-// import BusStopLine from '../components/BusStopLine.vue'
-import BusSchedule from '../components/BusSchedule.vue'
+import BusStopLine from '../components/BusStopLine.vue'
 
 export default {
   name: 'busInfo',
   components: {
     BusInfoHeader,
-    // BusStopLine,
-    BusSchedule
+    BusStopLine
   }
 }
 </script>
