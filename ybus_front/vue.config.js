@@ -1,10 +1,19 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  transpileDependencies: true
+  transpileDependencies: [
+    'vuetify'
+  ],
+
+  pluginOptions: {
+    vuetify: {
+			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
+		}
+  }
 })
 
 module.exports = {
   runtimeCompiler: true,
+
   pages: {
     default: {
       entry: 'src/mainPage/main.js',
@@ -22,7 +31,16 @@ module.exports = {
       filename: 'admin.html'
     }
   },
-    devServer: {
-    proxy: 'http://localhost:8081'
+
+  devServer: {
+  proxy: 'http://localhost:8081'
+},
+
+  transpileDependencies: [
+    'vuetify'
+  ],
+
+  pluginOptions: {
+    vuetify: {}
   }
 };
