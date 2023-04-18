@@ -167,24 +167,3 @@ props: {
     color: #B4B4B4;
     width: max-content;
     padding-left:10%;
-
-}
-.line-color{
-    background-color:#00264D;
-}
-.border-color{
-    border-color:#00264D;
-}
-.pointText{
-    text-align:center;
-    font-size:0.75rem;
-    line-height:1rem;
-}
-.padding-5{
-    padding:5% 0;
-}
-.vertical-center{
-    top: 50%;
-    transform: translateY(-50%);
-}
-</style>
