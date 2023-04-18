@@ -121,7 +121,7 @@
   }
   </script>
 
-  <style>
+  <style scoped>
     .boxShadow{
       box-shadow: 0px 0px 15px #0F296B1F;
     }

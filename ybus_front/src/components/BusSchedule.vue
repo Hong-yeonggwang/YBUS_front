@@ -12,83 +12,75 @@
         <div class="clear-both"></div>
     </div>
     <div class="mainContainer boxShadow boxRound bg-white py-6 px-4">
-        <div class="boxShadow boxRound">
+        <div class="boxShadow boxRound overflow-hidden">
             <div class="grayBack">
                 <div class="w-2/12 text-center float-left Pretendard-Bold">08</div>
-                <div class="w-10/12 float-left text-xs px-1 py-3 timeBorderGray">
-                    <div class="w-1/4 float-left px-1">
+                    <div class="timeBorderGray w-10/12 float-left">
+                        <div class="text-xs px-1 my-3 timeBorderNavy">
+                    <div class="busScheduleBox float-left">
                         <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">20</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">30</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">35</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">40</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">45</div>
-                        <div class="timeBack ">시내순환</div>
-                    </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">50</div>
-                        <div class="timeBack ">시내순환</div>
-                    </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">55</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
                     <div class="clear-both"></div>
                 </div>
+                    </div>
                 <div class="clear-both"></div>
             </div>
             <div class="whiteBack">
                 <div class="w-2/12 text-center float-left Pretendard-Bold">09</div>
-                <div class="w-10/12 float-left text-xs px-1 py-3 timeBorderGray">
-                    <div class="w-1/4 float-left px-1">
+                    <div class="timeBorderGray w-10/12 float-left">
+                        <div class="text-xs px-1 my-3 ">
+                    <div class="busScheduleBox float-left">
                         <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">20</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">30</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">35</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">40</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">45</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">50</div>
-                        <div class="timeBack ">시내순환</div>
-                    </div>
-                    <div class="w-1/4 float-left px-1">
-                        <div class="w-max mx-auto text-gray-color">55</div>
+                    <div class="busScheduleBox float-left">
+                        <div class="w-max mx-auto text-gray-color">15</div>
                         <div class="timeBack ">시내순환</div>
                     </div>
                     <div class="clear-both"></div>
                 </div>
+                    </div>
                 <div class="clear-both"></div>
             </div>
         </div>
@@ -105,12 +97,7 @@ props: {
 }
 </script>
 
-<style>
-.background_set{
-    background-size: 100% 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
+<style scoped>
 .boxShadow{
     box-shadow: 0px 0px 15px #0F296B1F;
 }
@@ -131,14 +118,11 @@ props: {
 .mainContainer{
     width:90%;
     margin:0 auto;
+    padding: 5.125% 4.613%;
 }
 .select_size{
     width: max-content;
     padding: 0 4%;
-}
-.vertical-center{
-    top: 50%;
-    transform: translateY(-50%);
 }
 .grayBack{
     width: 100%;
@@ -157,8 +141,14 @@ props: {
 }
 .timeBorderNavy{
     border-left: 3px solid #142637;
+    left:-3px;
+    position: relative;
 }
 .timeBorderGray{
     border-left: 3px solid #b4b4b4;
+}
+.busScheduleBox{
+    margin:0 1.5%;
+    width:22%;
 }
 </style>

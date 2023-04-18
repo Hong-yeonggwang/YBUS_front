@@ -1,19 +1,29 @@
 <template>
   <BusInfoHeader></BusInfoHeader>
+  <!-- <BusStop></BusStop>
   <BusSchedule></BusSchedule>
+  <BusLine></BusLine> -->
+  <!-- <SchoolBusStop></SchoolBusStop> -->
+  <BusStopInfo></BusStopInfo>
 </template>
 
 <script>
 import BusInfoHeader from '../components/BusInfoHeader.vue'
-// import BusStopLine from '../components/BusStopLine.vue'
-import BusSchedule from '../components/BusSchedule.vue'
+// import BusLine from '../components/BusLine.vue'
+// import BusSchedule from '../components/BusSchedule.vue'
+// import BusStop from '../components/BusStop.vue'
+// import SchoolBusStop from '../components/SchoolBusStop.vue'
+import BusStopInfo from '../components/BusStopInfo.vue'
 
 export default {
   name: 'busInfo',
   components: {
     BusInfoHeader,
-    // BusStopLine,
-    BusSchedule
+    // BusLine,
+    // BusSchedule,
+    // BusStop
+    // SchoolBusStop,
+    BusStopInfo
   }
 }
 </script>

@@ -33,7 +33,7 @@ props: {
 }
 </script>
 
-<style>
+<style scoped>
 .text-25xl{
     font-size: 1.75em;
     line-height:2.2rem;
@@ -45,12 +45,6 @@ props: {
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
-}
-.boxShadow{
-    box-shadow: 0px 0px 15px #0F296B1F;
-}
-.boxRound{
-    border-radius: 12px;
 }
 #header_background{
     background-image:url(@/assets/ybus_style_resource/ybus_img/schedule/blue_1.png);

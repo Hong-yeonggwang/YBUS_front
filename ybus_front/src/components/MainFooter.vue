@@ -24,7 +24,7 @@
   }
   </script>
 
-  <style>
+  <style scoped>
     .footerBackgroundColor{
       background-color: #71727B ;  
       padding: 0 5%;

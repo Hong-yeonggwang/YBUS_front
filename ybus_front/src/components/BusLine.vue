@@ -6,7 +6,7 @@
     </div>        
     <div class="w-11/12 mx-auto">
         <div class="h-18 pointBoder">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-9 mx-auto"></div>
                     <div class="h-5 border-2 rounded-2xl border-color pointText">기점</div>
@@ -18,7 +18,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18 pointBoder">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-18 mx-auto line-color"></div>
                 </div>
@@ -28,7 +28,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18 pointBoder">
-            <div class="startPoint relative background_set float-left w-1/3 h-18">
+            <div class=" relative background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-18 mx-auto line-color"></div>
                 </div>
@@ -42,7 +42,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18 pointBoder">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-18 mx-auto line-color"></div>
                 </div>
@@ -52,7 +52,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18 pointBoder">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-18 mx-auto line-color"></div>
                 </div>
@@ -62,7 +62,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18 pointBoder">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-9 mx-auto line-color"></div>
                     <div class="h-5 border-2 rounded-2xl border-color pointText">회차</div>
@@ -74,7 +74,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18 pointBoder">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-18 mx-auto line-color"></div>
                 </div>
@@ -84,7 +84,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18 pointBoder">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-18 mx-auto line-color"></div>
                 </div>
@@ -94,7 +94,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18 pointBoder">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-18 mx-auto line-color"></div>
                 </div>
@@ -104,7 +104,7 @@
             <div class="clear-both"></div>
         </div>
         <div class="h-18">
-            <div class="startPoint background_set float-left w-1/3 h-18">
+            <div class=" background_set float-left w-1/3 h-18">
                 <div class="w-8 h-18 float-right mr-6">
                     <div class="w-1 h-9 mx-auto line-color"></div>
                     <div class="h-5 border-2 rounded-2xl border-color pointText">종점</div>
@@ -120,7 +120,7 @@
 
 <script>
 export default {
-name: 'BusStopLine',
+name: 'BusSLine',
 props: {
     msg: String
 //     아직은 프롭스 설정할게 없음.
@@ -128,21 +128,11 @@ props: {
 }
 </script>
 
-<style>
+<style scoped>
 .background_set{
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
-}
-.boxShadow{
-    box-shadow: 0px 0px 15px #0F296B1F;
-}
-.boxRound{
-    border-radius: 12px;
-}
-#header_background{
-    background-image:url(@/assets/ybus_style_resource/ybus_img/schedule/blue_1.png);
-    padding-bottom: 33.669%;
 }
 .lineName-padding{
     padding:2% 0;
@@ -159,20 +149,8 @@ props: {
 .unselect-text-color{
     color: #B4B4B4;
 }
-.startPoint{
-
-}
 .busBakground{
     background-image:url(@/assets/ybus_style_resource/ybus_img/schedule/blueBus.png);
-}
-.nomalPoint{
-
-}
-.turnPoint{
-
-}
-.endPoint{
-
 }
 .h-18{
     height:5.5rem;
