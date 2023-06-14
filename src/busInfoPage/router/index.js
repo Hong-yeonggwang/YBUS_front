@@ -13,7 +13,7 @@ const routes = [
     component: SchoolBusStop,
   },
   {
-    path: "/businfo/busline",
+    path: "/businfo/busline/:busseq",
     name: "busline",
     component: BusLine,
   },

@@ -36,10 +36,10 @@
     </div> 
     <div class="mb-3 mt-6 text-xl Pretendard-Bold">실시간 위치</div>
     <div class="w-full">
-      <div id = "blue-background" class="background_set boxRound busBox boxShadow" onclick="location.href='businfo/busline'">
+      <div id = "blue-background" class="background_set boxRound busBox boxShadow" onclick="location.href='businfo/busline/1'">
         <div class="busText text-sm Pretendard-Bold">시내버스</div>
       </div>
-      <div id = "yellow-background" class="background_set boxRound busBox busBoxMargin boxShadow" onclick="location.href='businfo/busline'">
+      <div id = "yellow-background" class="background_set boxRound busBox busBoxMargin boxShadow" onclick="location.href='businfo/busline/2'">
         <div class="busText text-sm Pretendard-Bold">노랑버스</div>
       </div>
       <div id = "red-background" class="background_set boxRound busBox boxShadow" onclick="location.href='businfo/schoolebusstop'">
