@@ -1,5 +1,5 @@
 <template>
-  <div class = "max-w-2xl m-2 my-14 px-5">
+  <div class = "max-w-2xl m-2 my-14 px-3">
     <div class = "h-9 w-full">
       <img :src="require(`@/assets/ybus_style_resource/ybus_img/mainpage/YBUS_logo.png`)" class = "h-full float-left"/>
     </div>
@@ -53,22 +53,24 @@
         <div id="food" class="addMenuLogo"></div>
         <div class="text-xs m-auto text-center Pretendard-SemiBold">식단표</div>
       </div>
-      <div class="addMenu float-left">
+      <div class="addMenu float-left" onclick="location.href='https:/www.yongin.ac.kr/cmn/sym/mnu/mpm/101080200/htmlMenuView.do'">
         <div id="notice" class="addMenuLogo"></div>
         <div class="text-xs m-auto text-center Pretendard-SemiBold">용인대공지</div>
       </div>
-      <div class="addMenu float-left">
+      <div class="addMenu float-left" onclick="location.href='https:/total.yongin.ac.kr/login.do'">
         <div id="infoSys" class="addMenuLogo"></div>
-        <div class="text-xs m-auto text-center Pretendard-SemiBold">종합정보시스템</div>
+        <div class="text-xs m-auto text-center Pretendard-SemiBold" style="letter-spacing:-1.3px">종합정보시스템</div>
       </div>
-      <div class="addMenu float-left">
+      <div class="addMenu float-left" onclick="location.href='/board'">
         <div id="free" class="addMenuLogo"></div>
         <div class="text-xs m-auto text-center Pretendard-SemiBold">자유게시판</div>
       </div>
-      <div class="addMenu float-left">
-        <div id="team" class="addMenuLogo"></div>
-        <div class="text-xs m-auto text-center Pretendard-SemiBold">YBUS팀</div>
-      </div>
+      <router-link to="/team">
+        <div class="addMenu float-left">
+          <div id="team" class="addMenuLogo"></div>
+          <div class="text-xs m-auto text-center Pretendard-SemiBold">YBUS팀</div>
+        </div>
+      </router-link>
       <div class="clear-left"></div>
     </div>
     <div id = "adver" class="w-full my-5 boxRound boxShadow"></div>

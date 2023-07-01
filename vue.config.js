@@ -29,6 +29,16 @@ module.exports = {
       entry: 'src/adminPage/main.js',
       template: 'public/admin.html',
       filename: 'admin.html'
+    },
+    board: {
+      entry: 'src/boardPage/main.js',
+      template: 'public/board.html',
+      filename: 'board.html'
+    },
+    announcement: {
+      entry: 'src/announcementPage/main.js',
+      template: 'public/announcement.html',
+      filename: 'announcement.html'
     }
   },
 

@@ -6,12 +6,8 @@
             <div class="clear-both"></div>
         </div>
         <div class="w-1/2 float-right content-right-padding">
-            <router-link to="/businfo/schedule">
-                <div id="scheduleButton" class="float-right"></div>
-            </router-link>
-            <router-link to="/businfo/busstopinfo">
-                <div id="busStopLineButton" class="float-right"></div>
-            </router-link>
+            <router-view name="timeButton"></router-view>
+            <router-view name = "lineButton"></router-view>
             <div class="clear-both"></div>
         </div>
         <div class="clear-both"></div>        

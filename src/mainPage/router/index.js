@@ -1,11 +1,19 @@
 import { createWebHistory, createRouter } from "vue-router";
+import MainPage from '../views/MainPage.vue'
+import ybusTeam from '../views/ybusTeam.vue'
+
 
 
 const routes = [
   {
-    // path: "/home",
-    // name: "home",
-    // component: HomePage,
+    path: "/",
+    name: "main",
+    component: MainPage,
+  },
+  {
+    path: "/team",
+    name: "team",
+    component: ybusTeam,
   },
 ];
 

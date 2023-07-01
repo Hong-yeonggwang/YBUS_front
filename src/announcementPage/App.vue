@@ -1,15 +1,15 @@
 <template>
+  <announcementHeader></announcementHeader>
   <router-view></router-view>
-  <MainFooter></MainFooter>
 </template>
 
 <script>
-import MainFooter from'../components/MainFooter.vue'
+import announcementHeader from './views/announcementHeader.vue';
 
 export default {
-  name: 'mainPage',
+  name: 'App',
   components: {
-    MainFooter,
+    announcementHeader,
   }
 }
 </script>

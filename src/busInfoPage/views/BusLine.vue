@@ -83,7 +83,7 @@ name: 'BusSLine',
 
 data(){
 return {
-    name: 'no name',
+    busSeq: -1,
     busStop:[
           { name: "용인대", order:1,line:"up",isstop:"true",seq:1},
           { name: "진입로", order:2 ,line:"up",isstop:"true",seq:2},
@@ -104,7 +104,6 @@ created(){
 
 },
 mounted(){
-    this.name = this.$route.params.busseq
     this.insertBusInfo()
 },
 props: {
